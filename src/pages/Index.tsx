@@ -7,6 +7,9 @@ import ProductSection from '@/components/ProductSection';
 import { FaXTwitter } from "react-icons/fa6";
 import { BsSubstack } from "react-icons/bs";
 import { SiGmail } from "react-icons/si";
+import navLogo from '@/assets/navlogo.png';
+import footerpic from '@/assets/spiralscalesfooter.png';
+
 const Index = () => {
   return <div className="min-h-screen bg-white font-sans">
       {/* Navigation */}
@@ -17,7 +20,7 @@ const Index = () => {
       {/* Logo + Brand Name */}
       <div className="flex items-center gap-2 justify-center sm:justify-start">
         <img
-          src="/navlogo.png"
+          src={navLogo} alt="Spiral Scales Logo"
           alt="Spiral Scales Logo"
           className="h-[32px] sm:h-[40px] w-auto object-contain"
         />
@@ -47,7 +50,7 @@ const Index = () => {
       <footer className="bg-gray-900 text-white py-12">
         <div className="container mx-auto px-4 max-w-6xl text-center">
           <div className="flex justify-center items-center">
-            <img src="/c27f4461-d848-4c3f-8340-0e42ed8b4113.png" alt="Spiral Scales Logo" className="h-[180px] w-auto scale-[1.5] object-contain" />
+            <img src={footerpic} alt="Spiral Scales Logo" alt="Spiral Scales Logo" className="h-[180px] w-auto scale-[1.5] object-contain" />
           </div>
           <p className="text-gray-400 mb-6">
             Data-driven creative optimization for D2C brands.

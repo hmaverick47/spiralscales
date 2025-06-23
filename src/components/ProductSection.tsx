@@ -1,5 +1,7 @@
 
 import React from 'react';
+import holdr from '@/assets/holdr.png';
+
 
 const ProductSection = () => {
   const handleCalendlyClick = (e: React.MouseEvent) => {
@@ -66,7 +68,7 @@ const ProductSection = () => {
             <div className="flex-shrink-0">
               <div className="w-24 h-24 rounded-full overflow-hidden">
                 <img 
-                  src="/lovable-uploads/b1442e65-602a-405b-b340-aa684453ddea.png" 
+                  src={holdr} alt="holdrbfx"
                   alt="Holdr BFX, Founder of Spiral Scales"
                   className="w-full h-full object-cover"
                 />
